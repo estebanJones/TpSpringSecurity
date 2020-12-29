@@ -1,14 +1,14 @@
 package fr.stazi.epsi.spring.boot.dto;
 
-public class DtoUpdateCell {
+public class DtoManageCell {
 	private Long userId;
 	private Long cellId;
 	
-	public DtoUpdateCell() {
+	public DtoManageCell() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public DtoUpdateCell(Long userId, Long cellId) {
+	public DtoManageCell(Long userId, Long cellId) {
 		super();
 		this.userId = userId;
 		this.cellId = cellId;
